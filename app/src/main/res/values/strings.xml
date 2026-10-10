@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">BioVisionMP</string>
+    <string name="app_name">BioVision</string>
+    <string name="tagline">Triagem Botânica On-Device</string>
+    <string name="title">Saúde de Folhas</string>
+    <string name="subtitle">Fotografe ou selecione uma folha para analisar sinais de alerta</string>
+    <string name="btn_camera">Câmera</string>
+    <string name="btn_gallery">Galeria</string>
+    <string name="ready_prompt">Nenhuma folha selecionada</string>
+    <string name="analyzing_prompt">Analisando imagem…</string>
 </resources>

@@ -1,9 +1,20 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.BioVisionMP" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BioVisionMP" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorSecondary">@color/tonal_green</item>
+        <item name="android:colorBackground">@color/bg_screen</item>
     </style>
 
-    <style name="Theme.BioVisionMP" parent="Base.Theme.BioVisionMP" />
+    <!-- Moldura Orgânica Assimétrica estilo Folha: Top-Left (32dp), Top-Right (12dp), Bottom-Left (12dp), Bottom-Right (32dp) -->
+    <style name="ShapeAppearance.BioVision.LeafFrame" parent="ShapeAppearance.Material3.Corner.None">
+        <item name="cornerSizeTopLeft">32dp</item>
+        <item name="cornerSizeTopRight">12dp</item>
+        <item name="cornerSizeBottomLeft">12dp</item>
+        <item name="cornerSizeBottomRight">32dp</item>
+    </style>
 </resources>

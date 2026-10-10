@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Paleta Verde & Branco Google Botanic -->
+    <color name="bg_screen">#F0F5F0</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="primary_green">#2D6A4F</color>
+    <color name="primary_green_dark">#1B4332</color>
+    <color name="tonal_green">#D8F3DC</color>
+    <color name="tonal_green_dark">#1B2E24</color>
+    <color name="text_primary">#1B2E24</color>
+    <color name="text_secondary">#52796F</color>
+    
+    <!-- Cores semânticas de diagnóstico e status -->
+    <color name="status_healthy">#2D6A4F</color>
+    <color name="status_mildew">#D97706</color>
+    <color name="status_scorch">#B91C1C</color>
+    <color name="status_inconclusive">#4B5563</color>
+    <color name="bg_advice">#F8FAF8</color>
 </resources>
